@@ -1,0 +1,22 @@
+https://www.markdownguide.org/basic-syntax/
+
+https://blog.betrybe.com/git/git-push/
+
+Commit
+
+git add .
+git commit -m "commit message"
+git -c http.sslVerify=false  push
+
+
+ git clone https://github.com/libgit2/libgit2 mylibgit => Clonar repositório
+
+git checkout nome_branch => Sai do diretorio atual e entra na nome_branch 
+git pull => Pega tudo que está online e atualiza no repo local(PC)
+git push=> subin as alterações para o repositório remoto
+git checkout -b escopo/US183111 (Cria branch e coloca as informações)
+
+
+
+
+git checkout -b escopo/US212909
