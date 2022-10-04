@@ -1,5 +1,6 @@
 package me.dio.sacola.resource.dto;
 
+import io.swagger.annotations.Api;
 import lombok.RequiredArgsConstructor;
 import me.dio.sacola.model.Item;
 import me.dio.sacola.model.Sacola;
@@ -8,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.websocket.server.PathParam;
 
+@Api(value = "/ifood-devweek/sacolas")
 @RestController
 @RequestMapping("/ifood-devweek/sacolas")
 @RequiredArgsConstructor
