@@ -15,7 +15,7 @@ import java.util.List;
 @Builder
 @Data
 @Entity
-@JsonIgnoreProperties({"hibernateLazyInitialization","handler"})
+@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class Sacola {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -30,7 +30,6 @@ public class Sacola {
     @Enumerated
     private FormaPagamento FormaPagamento;
     private boolean fechado;
-
 
     public Sacola() {
     }
